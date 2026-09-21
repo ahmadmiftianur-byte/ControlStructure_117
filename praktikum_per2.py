@@ -35,3 +35,13 @@ for _ in range(n):
     a, b = b, a + b
 
 
+#4. Write a PYTHON program to print odd numbers up to n!
+
+n = int(input("masukkan nilai n: "))
+print(f"Odd numbers up to {n}:")
+for i in range(1, n + 1, 2):
+    print(i, end=" ")
+
+
+
+ 
