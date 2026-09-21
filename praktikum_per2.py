@@ -27,3 +27,11 @@ elif angka2 >= angka1 and angka2 >= angka3:
 else:
     print("Angka terbesar adalah:", angka3)
 
+#3. Write a PYTHON program to print Fibonacci series up to n!
+n = int(input("Masukkan jumlah elemen Fibonacci: "))
+a, b = 0, 1
+for _ in range(n):
+    print(a, end=' ')
+    a, b = b, a + b
+
+
